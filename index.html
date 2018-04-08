@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>TO-DO LIST</title>
+</head>
+<body>
+  <header>
+    <div class="row">
+      <div class="col-lg-10">
+        <form>
+          <div class="form-group">
+            <input id="input" type="text" class="form-control w-100 mt-lg-4 ml-lg-5 mb-lg-2"
+            placeholder="Enter an activity..">
+          </div><!--form-group-->
+        </form>
+      </div><!--col-lg-10-->
+      <div class="col-lg-2">
+        <i id="addBtn" class="mt-lg-3  fa fa-plus-circle fa-3x" aria-hidden="true"></i>
+      </div><!--col-lg-2-->
+    </div><!--row-->
+  </header>
+  <div class="container mt-lg-5">
+    <div class="content">
+      <ul id='list' class="list-group">
+        <li class="list-group-item">
+          <i class="fa fa-check-circle fa-lg mr-lg-1" aira-hidden="true"></i>
+          Grocery Shopping
+          <i id="removebtn" class="float-right fa fa-trash fa-lg" aria-hidden="true"></i>
+        </li>
+        <li class="list-group-item">
+          <i class="fa fa-check-circle fa-lg mr-lg-1" aira-hidden="true"></i>
+          Cook Maggi
+          <i class="float-right fa fa-trash fa-lg fa-lg" aria-hidden="true"></i>
+        </li>
+        <li class="list-group-item">
+          <i class="fa fa-check-circle fa-lg mr-lg-1" aira-hidden="true"></i>
+          Clean The Car
+          <i class="float-right fa fa-trash fa-lg" aria-hidden="true"></i>
+        </li>
+        <li class="list-group-item">
+          <i class="fa fa-check-circle fa-lg mr-lg-1" aira-hidden="true"></i>
+          Complete Assignments
+          <i class="float-right fa fa-trash fa-lg" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </div><!--content-->
+  </div><!--container-->
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+header{
+  background-color: rgb(6, 224, 105);
+}
+#input{
+  background-color: rgb(3, 193, 89);
+  border: 0;
+  color:white;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+#input::placeholder{
+  color:white;
+}
+.fa-plus-circle{
+  margin-left:20px;
+  color: white;
+  cursor: pointer;
+}
+body{
+  background-color:#D3D3D3;
+}
+li{
+  background-color: white;
+}
+.fa-trash,.fa-check-circle{
+  color: #808080;
+  cursor: pointer;
+}
+.fa-trash:hover{
+  color: red;
+}
+.fa-check-circle:hover{
+  color:green ;
+}
